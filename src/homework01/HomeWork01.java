@@ -7,6 +7,7 @@ public class HomeWork01 {
 		Scanner kb = new Scanner (System.in);
 		System.out.print("Enter The Value For X:");
 		int x = kb.nextInt();
+		// t chinh? sua? o day something...
 		double z = Math.exp(x + Math.sin(2*x)- Math.pow(x,5));
 		System.out.print("Z = "+z);
 	}
